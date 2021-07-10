@@ -1,4 +1,4 @@
-/datum/gear/augmentation/neural_lace
+/decl/loadout_category/augmentation/neural_lace
 	display_name = "neural lace"
 	custom_setup_proc_arguments = list(BP_HEAD)
 	path = /obj/item/organ/internal/neural_lace
@@ -6,9 +6,9 @@
 /obj/item/organ/internal/neural_lace/AttemptAugmentation(mob/user, target_zone)
 	if(!istype(user))
 		return ..()
-	
+
 	var/obj/item/organ/external/organ_to_implant_into = user.get_organ(parent_organ)
-	
+
 	if(!istype(organ_to_implant_into))
 		return ..()
 
