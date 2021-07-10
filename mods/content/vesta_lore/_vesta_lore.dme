@@ -1,0 +1,14 @@
+#ifndef MODPACK_VESTA_LORE
+#define MODPACK_VESTA_LORE
+#include "_vesta_lore.dm"
+#include "datum/culture/culture.dm"
+#include "datum/language/human/arabic.dm"
+#include "datum/language/human/chinese.dm"
+#include "datum/language/human/euro.dm"
+#include "datum/language/human/indian.dm"
+#include "datum/language/human/russian.dm"
+#include "datum/language/human/selenian.dm"
+#include "datum/language/human/spanish.dm"
+#include "datum/language/human/misc/gutter.dm"
+#include "datum/language/human/misc/spacer.dm"
+
