@@ -24,6 +24,7 @@
 	#include "../../mods/species/lizard/_lizard.dme"
 	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
+	#include "../../mods/species/skrell/_skrell.dme"
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing
 
