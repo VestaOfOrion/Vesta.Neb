@@ -1,0 +1,4 @@
+#ifndef MODPACK_VESTA_CONTENT
+#define MODPACK_VESTA_CONTENT
+#include "_vesta_content.dm"
+#include "datum/ai_holo.dm"
