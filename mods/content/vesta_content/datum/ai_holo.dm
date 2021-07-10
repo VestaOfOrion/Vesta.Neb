@@ -1,3 +1,3 @@
-/decl/ai_holo/solgov
+/decl/ai_holo/helper
 	icon_state = "helper"
-	icon = 'mods/content/vesta_content/icons/hologram.dmi'
+	icon = 'icons/hologram.dmi'
