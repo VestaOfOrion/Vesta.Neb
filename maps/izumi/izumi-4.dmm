@@ -55,7 +55,7 @@
 "fl" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/airless,/area/space)
 "fo" = (/obj/machinery/computer/modular/preset/aislot/sysadmin{dir = 8},/turf/simulated/floor/tiled/dark,/area/space)
 "fp" = (/obj/structure/table/rack{dir = 8},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/space)
-"fr" = (/obj/structure/table/rack{dir = 8},/turf/simulated/floor/plating,/area/space)
+"fr" = (/obj/structure/ladder,/obj/effect/floor_decal/industrial/warning/full,/turf/simulated/floor/plating,/area/space)
 "fw" = (/obj/structure/disposaloutlet{dir = 1},/obj/structure/disposalpipe/trunk{dir = 4},/turf/simulated/floor/tiled/airless,/area/space)
 "fA" = (/obj/structure/ladder,/turf/simulated/floor/airless,/area/space)
 "fO" = (/obj/effect/floor_decal/corner/white/bordercorner{color = "#F3DF2E"; dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/space)

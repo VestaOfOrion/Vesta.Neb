@@ -1,34 +1,31 @@
 #if !defined(using_map_DATUM)
 
-	#include "torch_announcements.dm"
-	#include "torch_antagonism.dm"
-	#include "torch_areas.dm"
-	#include "torch_elevator.dm"
-	#include "torch_events.dm"
-	#include "torch_holodecks.dm"
-	#include "torch_lobby.dm"
-	#include "torch_machinery.dm"
-	#include "torch_map_templates.dm"
-	#include "torch_npcs.dm"
-	#include "torch_overmap.dm"
-	#include "torch_presets.dm"
-	#include "torch_procs.dm"
-	#include "torch_ranks.dm"
-//	#include "torch_security_state.dm" //Modular overwrite for alert level lighting.
-	#include "torch_setup.dm"
-	#include "torch_shuttles.dm"
-	#include "torch_submaps.dm"
-	#include "torch_turfs.dm"
-	#include "torch_unit_testing.dm"
+	#include "izumi_announcements.dm"
+	#include "izumi_antagonism.dm"
+	#include "izumi_areas.dm"
+	#include "izumi_elevator.dm"
+	#include "izumi_events.dm"
+	#include "izumi_holodecks.dm"
+	#include "izumi_lobby.dm"
+	#include "izumi_map_templates.dm"
+	#include "izumi_overmap.dm"
+	#include "izumi_procs.dm"
+	#include "izumi_ranks.dm"
+//	#include "izumi_security_state.dm" //Modular overwrite for alert level lighting.
+	#include "izumi_setup.dm"
+	#include "izumi_shuttles.dm"
+	#include "izumi_submaps.dm"
+	#include "izumi_turfs.dm"
+	#include "izumi_unit_testing.dm"
 
 	#include "datums/uniforms.dm"
 	#include "datums/uniforms_expedition.dm"
 //	#include "datums/uniforms_fleet.dm" //Modular overwrite. Go check modular_boh for the NTEF version!
-	#include "datums/game_modes/torch_traitor.dm"
-	#include "datums/game_modes/torch_revolution.dm"
-	#include "datums/game_modes/torch_siege.dm"
-	#include "datums/game_modes/torch_meteor.dm"
-	#include "datums/game_modes/torch_uprising.dm"
+	#include "datums/game_modes/izumi_traitor.dm"
+	#include "datums/game_modes/izumi_revolution.dm"
+	#include "datums/game_modes/izumi_siege.dm"
+	#include "datums/game_modes/izumi_meteor.dm"
+	#include "datums/game_modes/izumi_uprising.dm"
 	#include "datums/reports/command.dm"
 	#include "datums/reports/corporate.dm"
 	#include "datums/reports/exploration.dm"
@@ -80,8 +77,8 @@
 
 	#include "items/weapon/storage/wallets.dm"
 
-	#include "job/torch_access.dm"
-	#include "job/torch_jobs.dm"
+	#include "job/izumi_access.dm"
+	#include "job/izumi_jobs.dm"
 	#include "job/command_jobs.dm"
 	#include "job/corporate_jobs.dm"
 	#include "job/engineering_jobs.dm"
@@ -93,7 +90,7 @@
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
 
-	#include "job/outfits/torch_outfits.dm"
+	#include "job/outfits/izumi_outfits.dm"
 	#include "job/outfits/command_outfits.dm"
 	#include "job/outfits/corporate_outfits.dm"
 	#include "job/outfits/engineering_outfits.dm"
@@ -142,12 +139,12 @@
 	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
 
-	#include "torch1_deck5.dmm"
-	#include "torch2_deck4.dmm"
-	#include "torch3_deck3.dmm"
-	#include "torch4_deck2.dmm"
-	#include "torch5_deck1.dmm"
-	#include "torch6_bridge.dmm"
+	#include "izumi1_deck5.dmm"
+	#include "izumi2_deck4.dmm"
+	#include "izumi3_deck3.dmm"
+	#include "izumi4_deck2.dmm"
+	#include "izumi5_deck1.dmm"
+	#include "izumi6_bridge.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
 
@@ -178,7 +175,7 @@
 	#include "../../code/datums/music_tracks/chasing_time.dm"
 
 //###########################################################################################################
-//# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
+//# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE izumi MAP IS CALLED #######################
 //###########################################################################################################
 
 	#include "../../modular_boh/code/game/ranks/vesta_ranks.dm"
@@ -188,7 +185,7 @@
 	#include "../../modular_boh/code/modules/datums/uniforms_marine_corps.dm"
 	#include "../../modular_boh/code/modules/datums/uniforms_exp_fleet.dm"
 	#include "../../modular_boh/code/modules/jobs/jobs.dm"
-	#include "../../modular_boh/code/modules/jobs/torch_jobs_vesta.dm"
+	#include "../../modular_boh/code/modules/jobs/izumi_jobs_vesta.dm"
 	#include "../../modular_boh/code/modules/jobs/outfits/vesta_outfits.dm"
 	#include "../../modular_boh/code/modules/modular_computer/card.dm"
 	#include "../../modular_boh/code/items/clothing/ec_skillbadges.dm"
@@ -208,7 +205,7 @@
 	#include "../../modular_boh/maps/boh_areas.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts_helpers.dm"
-	#include "../../modular_boh/code/modules/torch_security_state.dm"
+	#include "../../modular_boh/code/modules/izumi_security_state.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_human.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/faction/factions_human.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/location/locations_human.dm"
@@ -220,14 +217,14 @@
 	#include "../../modular_boh/code/modules/datums/uniform_vendor_boh.dm"
 
 //###########################################################################################################
-//# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
+//# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE izumi MAP IS CALLED #######################
 //###########################################################################################################
 
-	#define using_map_DATUM /datum/map/torch
+	#define using_map_DATUM /datum/map/izumi
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Torch
+	#warn A map has already been included, ignoring Izumi
 
 #endif
 
