@@ -1,0 +1,15 @@
+#ifndef MODPACK_ANDROID
+#define MODPACK_ANDROID
+#include "_android.dm"
+#include "datum\accessory.dm"
+#include "datum\species.dm"
+#endif
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+// END_INCLUDE
