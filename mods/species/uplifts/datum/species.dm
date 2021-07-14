@@ -16,8 +16,6 @@
 
 	show_ssd = "fast asleep"
 
-	spawn_flags = 0
-
 	has_organ = list(
 		BP_HEART =    /obj/item/organ/internal/heart,
 		BP_STOMACH =  /obj/item/organ/internal/stomach,
