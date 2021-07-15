@@ -1,0 +1,6 @@
+#ifndef MODPACK_UPLIFTS
+#define MODPACK_UPLIFTS
+#include "_uplifts.dm"
+#include "datum\culture.dm"
+#include "datum\species.dm"
+#endif

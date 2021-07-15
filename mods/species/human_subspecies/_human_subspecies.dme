@@ -1,0 +1,7 @@
+#ifndef MODPACK_HUMAN_SUBSPECIES
+#define MODPACK_HUMAN_SUBSPECIES
+#include "_human_subspecies.dm"
+#include "datum\culture.dm"
+#include "datum\species.dm"
+#include "datum\species_bodytypes.dm"
+#endif
